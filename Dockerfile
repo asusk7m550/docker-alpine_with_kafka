@@ -10,5 +10,5 @@ RUN git clone https://github.com/edenhill/librdkafka.git && cd librdkafka/ && ./
 # Download kafka for golang
 RUN go get -tags musl -u gopkg.in/confluentinc/confluent-kafka-go.v1/kafka
 
-# Download logrus, used fot logging
-RUN go get -v github.com/Sirupsen/logrus
+# Download logrus, used for logging
+RUN go get -v github.com/sirupsen/logrus
