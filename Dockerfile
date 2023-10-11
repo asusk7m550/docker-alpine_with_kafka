@@ -1,5 +1,5 @@
-# Get the source from golang:alpine
-FROM golang:alpine
+# Get the source from golang:1.17-alpine3.16
+FROM golang:1.17-alpine3.16
 
 # Install some packages
 RUN apk add --no-cache git pkgconf gcc libc-dev g++ bash make
